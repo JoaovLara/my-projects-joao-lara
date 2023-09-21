@@ -10,7 +10,7 @@ Aqui estão alguns dos meus projetos favoritos:
    - Aplicativo simples de previsão do tempo que permite obter informações sobre o clima de uma cidade específica.
    - HTML, CSS, JavaScript.
 
-2. [**Calculadora Simples**](link_para_o_repositório)
+2. [**Calculadora Simples**](https://github.com/JoaovLara/my-projects-joao-lara/tree/main/calculator)
    - Calculadora simples que permite realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
    - HTML, CSS, JavaScript.
 
