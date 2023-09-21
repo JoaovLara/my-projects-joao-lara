@@ -2,9 +2,11 @@ Claro, aqui está um exemplo de README para o seu aplicativo de previsão do tem
 
 # Aplicativo de Previsão do Tempo
 
-![Ícone do Aplicativo](./img/iconT.png)
-
 Este é um aplicativo simples de previsão do tempo que permite obter informações sobre o clima de uma cidade específica. O aplicativo utiliza a API do OpenWeatherMap para obter dados meteorológicos em tempo real.
+
+## Pré-Visualização
+
+![Pré-Visualização da Calculadora](./img/preview.png)
 
 ## Como Usar
 
@@ -16,9 +18,6 @@ Este é um aplicativo simples de previsão do tempo que permite obter informaç�
 
 4. Uma representação gráfica do clima atual também será exibida na forma de um ícone.
 
-## Exemplo
-
-![Exemplo do Aplicativo](./img/imgW.png)
 
 ## Tecnologias Utilizadas
 
