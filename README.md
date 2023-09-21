@@ -11,7 +11,7 @@ Aqui estão alguns dos meus projetos favoritos:
    - HTML, CSS, JavaScript.
 
 2. [**Calculadora Simples**](link_para_o_repositório)
-   - Calculadora simples que permite realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão..
+   - Calculadora simples que permite realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
    - HTML, CSS, JavaScript.
 
 3. [**Aplicativo To-Do List**](https://github.com/JoaovLara/my-projects-joao-lara/tree/main/To%20Do%20List)
