@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>To do List</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <p class="t">To Do List</p>
+        <input class="input-task" placeholder="O que preciso fazer...">
+        <button class="button-task">
+            <p> + </p>
+        </button>
+        <ul class="list-task">
+            <li class="task ${item.concluida && 'done'}">
+                <img src="./img/check.png" alt="Check-Tarefa" onclick="checkTask($position)">
+                <p>${item.tarefa}</p>
+                <img src="./img/trash.png" alt="Delete-Tarefa" onclick="deleItem($position)">
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="scripts.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0 0;
+    text-decoration: none;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #273027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > p {
+    color: #fbf1c7;
+    font-size: 1vw;
+}
+
+.left-login-img {
+    width: 40vw;
+    max-width: 300px;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login {
+    width: 60%;
+    padding: 5%;
+    background: #70700d;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px #0e0500;
+}
+
+.card-login > h1,
+h2 {
+    color: #fbf1c7;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.input-login input,
+::placeholder {
+    color: #fbf1c7;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #c0c09e;
+    border-radius: 5px;
+    gap: 0.8rem;
+}
+
+.input-login > input {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+.btn-login {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #fbf1c7;
+    background-color: #b8bb26;
+}
+
+.btn-login:hover {
+    background-color: #c7ca14;
+}
+
+.forms {
+    margin-top: 15px;
+}
+
+.forms a {
+    color: #fbf1c7;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+/* Regras de mídia para tornar o layout responsivo */
+
+@media only scren and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login {
+        flex-direction: column;
+    }    
+    .left-login p {
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+}
